@@ -1,0 +1,238 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'yo' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'yo', null ]
+6 verbose cache add name=undefined spec="yo" args=["yo",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'yo',
+7 verbose parsed url   path: 'yo',
+7 verbose parsed url   href: 'yo' }
+8 silly lockFile c41975d1-yo yo
+9 verbose lock yo /home/adam/.npm/c41975d1-yo.lock
+10 silly lockFile c41975d1-yo yo
+11 silly lockFile c41975d1-yo yo
+12 verbose addNamed [ 'yo', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile d937c28e-yo yo@
+15 verbose lock yo@ /home/adam/.npm/d937c28e-yo.lock
+16 silly addNameRange { name: 'yo', range: '*', hasData: false }
+17 verbose url raw yo
+18 verbose url resolving [ 'http://registry.npmjs.org/', './yo' ]
+19 verbose url resolved http://registry.npmjs.org/yo
+20 info trying registry request attempt 1 at 15:49:45
+21 http GET http://registry.npmjs.org/yo
+22 info retry will retry, error on last attempt: Error: getaddrinfo EADDRINFO
+23 info trying registry request attempt 2 at 15:49:55
+24 http GET http://registry.npmjs.org/yo
+25 http 200 http://registry.npmjs.org/yo
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+26 silly registry.get     etag: '"6SJRJ8N0VYBPNCQ1CK1EC9W6P"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'cache-control': 'max-age=1',
+26 silly registry.get     'content-length': '38014',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sat, 31 May 2014 13:49:59 GMT',
+26 silly registry.get     age: '978',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-fra1230-FRA',
+26 silly registry.get     'x-cache': 'MISS, MISS',
+26 silly registry.get     'x-cache-hits': '0, 0',
+26 silly registry.get     'x-timer': 'S1401544199.157639,VS0,VE98',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+28 silly addNameRange versions [ 'yo',
+28 silly addNameRange   [ '1.0.0-beta.1',
+28 silly addNameRange     '1.0.0-beta.2',
+28 silly addNameRange     '1.0.0-beta.3',
+28 silly addNameRange     '1.0.0-beta.4',
+28 silly addNameRange     '1.0.0-beta.5',
+28 silly addNameRange     '1.0.0-beta.6',
+28 silly addNameRange     '1.0.0-beta.7',
+28 silly addNameRange     '1.0.0-rc.1',
+28 silly addNameRange     '1.0.0-rc.1.1',
+28 silly addNameRange     '1.0.0-rc.1.2',
+28 silly addNameRange     '1.0.0-rc.1.3',
+28 silly addNameRange     '1.0.0-rc.1.4',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7-pre.1',
+28 silly addNameRange     '1.0.7-pre.2',
+28 silly addNameRange     '1.0.7-pre.3',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.2' ] ]
+29 verbose addNamed [ 'yo', '1.1.2' ]
+30 verbose addNamed [ '1.1.2', '1.1.2' ]
+31 silly lockFile c4df5c1e-yo-1-1-2 yo@1.1.2
+32 verbose lock yo@1.1.2 /home/adam/.npm/c4df5c1e-yo-1-1-2.lock
+33 silly lockFile 0d25c118-gistry-npmjs-org-yo-yo-1-1-2-tgz http://registry.npmjs.org/yo/-/yo-1.1.2.tgz
+34 verbose lock http://registry.npmjs.org/yo/-/yo-1.1.2.tgz /home/adam/.npm/0d25c118-gistry-npmjs-org-yo-yo-1-1-2-tgz.lock
+35 verbose addRemoteTarball [ 'http://registry.npmjs.org/yo/-/yo-1.1.2.tgz',
+35 verbose addRemoteTarball   'a0d4da72e83fa0e0dbfe1d0ba258881b240ab854' ]
+36 info retry fetch attempt 1 at 15:49:56
+37 verbose fetch to= /home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/tmp.tgz
+38 http GET http://registry.npmjs.org/yo/-/yo-1.1.2.tgz
+39 http 200 http://registry.npmjs.org/yo/-/yo-1.1.2.tgz
+40 verbose tar unpack /home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/tmp.tgz
+41 silly lockFile 77b5b5de-96392-0-9955890357960016-package tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package
+42 verbose lock tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package /home/adam/.npm/77b5b5de-96392-0-9955890357960016-package.lock
+43 silly lockFile b897cba2-96392-0-9955890357960016-tmp-tgz tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/tmp.tgz
+44 verbose lock tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/tmp.tgz /home/adam/.npm/b897cba2-96392-0-9955890357960016-tmp-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry cli.js
+48 silly gunzTarPerm extractEntry yoyo.js
+49 silly gunzTarPerm extractEntry readme.md
+50 silly gunzTarPerm extractEntry scripts/doctor.js
+51 silly gunzTarPerm extractEntry yeoman.txt
+52 silly lockFile 77b5b5de-96392-0-9955890357960016-package tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package
+53 silly lockFile 77b5b5de-96392-0-9955890357960016-package tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package
+54 silly lockFile b897cba2-96392-0-9955890357960016-tmp-tgz tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/tmp.tgz
+55 silly lockFile b897cba2-96392-0-9955890357960016-tmp-tgz tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/tmp.tgz
+56 verbose tar pack [ '/home/adam/.npm/yo/1.1.2/package.tgz',
+56 verbose tar pack   '/home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package' ]
+57 verbose tarball /home/adam/.npm/yo/1.1.2/package.tgz
+58 verbose folder /home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package
+59 silly lockFile 77b5b5de-96392-0-9955890357960016-package tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package
+60 verbose lock tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package /home/adam/.npm/77b5b5de-96392-0-9955890357960016-package.lock
+61 silly lockFile 958e6821-me-adam-npm-yo-1-1-2-package-tgz tar:///home/adam/.npm/yo/1.1.2/package.tgz
+62 verbose lock tar:///home/adam/.npm/yo/1.1.2/package.tgz /home/adam/.npm/958e6821-me-adam-npm-yo-1-1-2-package-tgz.lock
+63 silly lockFile 77b5b5de-96392-0-9955890357960016-package tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package
+64 silly lockFile 77b5b5de-96392-0-9955890357960016-package tar:///home/adam/tmp/npm-2748-sYFgXrmY/1401551396392-0.9955890357960016/package
+65 silly lockFile 958e6821-me-adam-npm-yo-1-1-2-package-tgz tar:///home/adam/.npm/yo/1.1.2/package.tgz
+66 silly lockFile 958e6821-me-adam-npm-yo-1-1-2-package-tgz tar:///home/adam/.npm/yo/1.1.2/package.tgz
+67 silly lockFile 723f46ef-home-adam-npm-yo-1-1-2-package /home/adam/.npm/yo/1.1.2/package
+68 verbose lock /home/adam/.npm/yo/1.1.2/package /home/adam/.npm/723f46ef-home-adam-npm-yo-1-1-2-package.lock
+69 silly lockFile 723f46ef-home-adam-npm-yo-1-1-2-package /home/adam/.npm/yo/1.1.2/package
+70 silly lockFile 723f46ef-home-adam-npm-yo-1-1-2-package /home/adam/.npm/yo/1.1.2/package
+71 verbose tar unpack /home/adam/.npm/yo/1.1.2/package.tgz
+72 silly lockFile 124f65bf-r-home-adam-npm-yo-1-1-2-package tar:///home/adam/.npm/yo/1.1.2/package
+73 verbose lock tar:///home/adam/.npm/yo/1.1.2/package /home/adam/.npm/124f65bf-r-home-adam-npm-yo-1-1-2-package.lock
+74 silly lockFile 958e6821-me-adam-npm-yo-1-1-2-package-tgz tar:///home/adam/.npm/yo/1.1.2/package.tgz
+75 verbose lock tar:///home/adam/.npm/yo/1.1.2/package.tgz /home/adam/.npm/958e6821-me-adam-npm-yo-1-1-2-package-tgz.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry cli.js
+79 silly gunzTarPerm extractEntry yoyo.js
+80 silly gunzTarPerm extractEntry readme.md
+81 silly gunzTarPerm extractEntry scripts/doctor.js
+82 silly gunzTarPerm extractEntry yeoman.txt
+83 silly lockFile 124f65bf-r-home-adam-npm-yo-1-1-2-package tar:///home/adam/.npm/yo/1.1.2/package
+84 silly lockFile 124f65bf-r-home-adam-npm-yo-1-1-2-package tar:///home/adam/.npm/yo/1.1.2/package
+85 silly lockFile 958e6821-me-adam-npm-yo-1-1-2-package-tgz tar:///home/adam/.npm/yo/1.1.2/package.tgz
+86 silly lockFile 958e6821-me-adam-npm-yo-1-1-2-package-tgz tar:///home/adam/.npm/yo/1.1.2/package.tgz
+87 verbose chmod /home/adam/.npm/yo/1.1.2/package.tgz 644
+88 verbose chown /home/adam/.npm/yo/1.1.2/package.tgz [ 1000, 1000 ]
+89 silly lockFile 0d25c118-gistry-npmjs-org-yo-yo-1-1-2-tgz http://registry.npmjs.org/yo/-/yo-1.1.2.tgz
+90 silly lockFile 0d25c118-gistry-npmjs-org-yo-yo-1-1-2-tgz http://registry.npmjs.org/yo/-/yo-1.1.2.tgz
+91 silly lockFile c4df5c1e-yo-1-1-2 yo@1.1.2
+92 silly lockFile c4df5c1e-yo-1-1-2 yo@1.1.2
+93 silly lockFile d937c28e-yo yo@
+94 silly lockFile d937c28e-yo yo@
+95 silly resolved [ { name: 'yo',
+95 silly resolved     version: '1.1.2',
+95 silly resolved     description: 'CLI tool for scaffolding out Yeoman projects',
+95 silly resolved     license: 'MIT',
+95 silly resolved     bin: { yo: 'cli.js' },
+95 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo' },
+95 silly resolved     homepage: 'http://yeoman.io',
+95 silly resolved     author: { name: 'Chrome Developer Relations' },
+95 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+95 silly resolved     scripts:
+95 silly resolved      { test: 'grunt',
+95 silly resolved        postinstall: 'node ./scripts/doctor',
+95 silly resolved        postupdate: 'node ./scripts/doctor' },
+95 silly resolved     files: [ 'cli.js', 'yoyo.js', 'yeoman.txt', 'scripts/' ],
+95 silly resolved     keywords:
+95 silly resolved      [ 'front-end',
+95 silly resolved        'development',
+95 silly resolved        'dev',
+95 silly resolved        'build',
+95 silly resolved        'web',
+95 silly resolved        'tool',
+95 silly resolved        'cli',
+95 silly resolved        'scaffold',
+95 silly resolved        'stack' ],
+95 silly resolved     dependencies:
+95 silly resolved      { 'yeoman-generator': '~0.16.0',
+95 silly resolved        nopt: '~2.1.1',
+95 silly resolved        lodash: '~2.4.1',
+95 silly resolved        'update-notifier': '~0.1.3',
+95 silly resolved        insight: '~0.3.0',
+95 silly resolved        'sudo-block': '~0.3.0',
+95 silly resolved        async: '~0.2.9',
+95 silly resolved        open: '0.0.4',
+95 silly resolved        chalk: '~0.4.0',
+95 silly resolved        findup: '~0.1.3',
+95 silly resolved        shelljs: '~0.2.6' },
+95 silly resolved     peerDependencies: { 'grunt-cli': '~0.1.7', bower: '>=0.9.0' },
+95 silly resolved     devDependencies:
+95 silly resolved      { grunt: '~0.4.2',
+95 silly resolved        mockery: '~1.4.0',
+95 silly resolved        'grunt-contrib-jshint': '~0.8.0',
+95 silly resolved        'grunt-contrib-watch': '~0.5.3',
+95 silly resolved        'grunt-mocha-test': '~0.8.1' },
+95 silly resolved     engineStrict: true,
+95 silly resolved     preferGlobal: true,
+95 silly resolved     readme: '# yo [![Build Status](https://secure.travis-ci.org/yeoman/yo.png?branch=master)](http://travis-ci.org/yeoman/yo)\n\nCLI tool for scaffolding out [Yeoman](https://github.com/yeoman/yeoman) projects.\n\n![](screenshot.png)\n\n\n## [Documentation](https://github.com/yeoman/yeoman/wiki)\n\n\n## Options\n\n- `--no-color` flag to disable colors.\n\n- `--[no-]insight` to toggle anonymous [Insight](https://github.com/yeoman/insight) tracking which helps us improve Yeoman. Using either of these flags on the first run will prevent you from being prompted about it interactively. The flags can also be used to change it later on.\n\n\n## Troubleshooting\n\nRunning `yo doctor` command can help you troubleshoot common issues.\n\nIf `doctor` doesn\'t help, then check opened issues for a similar problem. Open a new issue if your problem haven\'t been reported yet. Make sure to always include the version of `yo` (`yo --version`) and Node.js (`node --version`) you use.\n\nIf your issue only occur using a generator, please report the issues on the generator\'s repository.\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md).\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php) and copyright Google.\n',
+95 silly resolved     readmeFilename: 'readme.md',
+95 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+95 silly resolved     _id: 'yo@1.1.2',
+95 silly resolved     dist: { shasum: 'c42640f1c9105430818d92b8aa3c7178f61bd035' },
+95 silly resolved     _from: 'yo@',
+95 silly resolved     _resolved: 'http://registry.npmjs.org/yo/-/yo-1.1.2.tgz' } ]
+96 info install yo@1.1.2 into /usr/lib
+97 info installOne yo@1.1.2
+98 info /usr/lib/node_modules/yo unbuild
+99 verbose tar unpack /home/adam/.npm/yo/1.1.2/package.tgz
+100 silly lockFile 7bedd6dc-tar-usr-lib-node-modules-yo tar:///usr/lib/node_modules/yo
+101 verbose lock tar:///usr/lib/node_modules/yo /home/adam/.npm/7bedd6dc-tar-usr-lib-node-modules-yo.lock
+102 silly lockFile 958e6821-me-adam-npm-yo-1-1-2-package-tgz tar:///home/adam/.npm/yo/1.1.2/package.tgz
+103 verbose lock tar:///home/adam/.npm/yo/1.1.2/package.tgz /home/adam/.npm/958e6821-me-adam-npm-yo-1-1-2-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 error Error: EACCES, mkdir '/usr/lib/node_modules/yo'
+105 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/yo']
+105 error   errno: 3,
+105 error   code: 'EACCES',
+105 error   path: '/usr/lib/node_modules/yo',
+105 error   fstream_type: 'Directory',
+105 error   fstream_path: '/usr/lib/node_modules/yo',
+105 error   fstream_class: 'DirWriter',
+105 error   fstream_stack:
+105 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+105 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+105 error      'Object.oncomplete (fs.js:107:15)' ] }
+106 error Please try running this command again as root/Administrator.
+107 error System Linux 3.8.0-19-generic
+108 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "yo"
+109 error cwd /home/adam/workspace/2048
+110 error node -v v0.10.25
+111 error npm -v 1.3.24
+112 error path /usr/lib/node_modules/yo
+113 error fstream_path /usr/lib/node_modules/yo
+114 error fstream_type Directory
+115 error fstream_class DirWriter
+116 error code EACCES
+117 error errno 3
+118 error stack Error: EACCES, mkdir '/usr/lib/node_modules/yo'
+119 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+119 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+119 error fstream_stack Object.oncomplete (fs.js:107:15)
+120 verbose exit [ 3, true ]
